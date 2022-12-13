@@ -1,0 +1,10 @@
+list=[5,15,25,40]
+a=sorted(list)
+print("The maximum number is",max(list))
+print("The minimum number is",min(list))
+sum=max(list)+min(list)
+print("sum is ",sum)
+difference=max(list)-min(list)
+print("difference is",difference)
+product=max(list)*min(list)
+print("product is",product)
