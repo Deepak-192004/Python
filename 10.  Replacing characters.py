@@ -1,7 +1,7 @@
 def addFrequencyToCharacter(s):
     frequency = [0] * 26
     n = len(s)
-    for i in range(n)
+    for i in range(n):
         frequency[ord(s[i]) - ord('a')] += 1
     for i in range(n):
         add = frequency[ord(s[i]) - ord('a')] % 26
